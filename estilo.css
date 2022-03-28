@@ -36,12 +36,68 @@ body{
     font-weight: 1000;
 }
 
-/* .header h1 {
-    border: 3px solid green;
+.banner{
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
 }
 
-.header li {
-    border: 3px solid green;
-} */
+.banner .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
 
+.banner .container p{
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
 
+.banner .container p span{
+    font-weight: 1000;
+}
+
+li a{
+    text-decoration: none;
+    color: #E3b062;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    height: 30px;
+    border: 2px solid #32B9CD;
+    border-radius: 10px;
+}
+
+.btn{
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+    background-color: #E6005A;
+    width: 120px;
+    align-self: center;
+}
+
+.banner .card{
+    background-color: #e5e5e5;
+    color: #E6005A;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
